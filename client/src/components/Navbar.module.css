@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edf6f6;
+    padding: 15px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .companyName {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbarItem {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #f8df8c;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: black;
+    
+  }
+  
+  .navbarItem:last-child {
+    margin-right: 0;
+  }
+  
